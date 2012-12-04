@@ -26,4 +26,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITableView delegate & datasource
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"customCell";
+    UINib *nib = [UINib nibWithNibName:@"CustomCell" bundle:nil];
+    [tableView registerNib:nib forCellReuseIdentifier:cellIdentifier];
+    
+    CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    cell.customLabel.text = [@(indexPath.row) stringValue];
+    return cell;
+}
+
 @end

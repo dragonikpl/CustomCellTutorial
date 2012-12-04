@@ -18,6 +18,8 @@
 		88875668166E8CF800CBE417 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88875667166E8CF800CBE417 /* Default-568h@2x.png */; };
 		8887566B166E8CF800CBE417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887566A166E8CF800CBE417 /* ViewController.m */; };
 		8887566E166E8CF800CBE417 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8887566C166E8CF800CBE417 /* ViewController.xib */; };
+		88875676166E8FB200CBE417 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88875675166E8FB200CBE417 /* CustomCell.m */; };
+		88875678166E901D00CBE417 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88875677166E901D00CBE417 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		88875669166E8CF800CBE417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8887566A166E8CF800CBE417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8887566D166E8CF800CBE417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		88875674166E8FB200CBE417 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		88875675166E8FB200CBE417 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		88875677166E901D00CBE417 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				8887566A166E8CF800CBE417 /* ViewController.m */,
 				8887566C166E8CF800CBE417 /* ViewController.xib */,
 				88875658166E8CF800CBE417 /* Supporting Files */,
+				88875674166E8FB200CBE417 /* CustomCell.h */,
+				88875675166E8FB200CBE417 /* CustomCell.m */,
+				88875677166E901D00CBE417 /* CustomCell.xib */,
 			);
 			path = CustomCellTutorial;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				88875666166E8CF800CBE417 /* Default@2x.png in Resources */,
 				88875668166E8CF800CBE417 /* Default-568h@2x.png in Resources */,
 				8887566E166E8CF800CBE417 /* ViewController.xib in Resources */,
+				88875678166E901D00CBE417 /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				8887565E166E8CF800CBE417 /* main.m in Sources */,
 				88875662166E8CF800CBE417 /* AppDelegate.m in Sources */,
 				8887566B166E8CF800CBE417 /* ViewController.m in Sources */,
+				88875676166E8FB200CBE417 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

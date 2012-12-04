@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCell.h
 //  CustomCellTutorial
 //
 //  Created by dragon on 04.12.2012.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomCell.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface CustomCell : UITableViewCell
 
+@property (strong, nonatomic) IBOutlet UILabel *customLabel;
 @end
